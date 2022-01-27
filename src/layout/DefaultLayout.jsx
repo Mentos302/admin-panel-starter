@@ -7,16 +7,16 @@ import AppFooter from '../components/AppFooter'
 
 const DefaultLayout = () => {
   return (
-    <div>
+    <main>
       <AppSidebar />
-      <div>
+      <div className="container">
         <AppHeader />
-        <div>
+        <div className="content">
           <AppContent />
         </div>
         <AppFooter />
       </div>
-    </div>
+    </main>
   )
 }
 

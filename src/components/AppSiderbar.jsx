@@ -1,5 +1,9 @@
 const AppSiderbar = () => {
-  return <h1>Sidebar</h1>
+  return (
+    <div className="sidebar">
+      <h1>Sidebar</h1>
+    </div>
+  )
 }
 
 export default AppSiderbar
