@@ -1,8 +1,5 @@
 @import './fonts';
-
-* {
-  margin: 0;
-}
+@import './normalize';
 
 body {
   background: #fff;
@@ -28,6 +25,16 @@ header {
   height: 100%;
   background: #3c4b64;
   color: #a6adb8;
+  &__branding {
+    height: 65px;
+    background: #303c54;
+  }
+  nav {
+    a {
+      display: flex;
+      gap: 10px;
+    }
+  }
 }
 
 .container {
